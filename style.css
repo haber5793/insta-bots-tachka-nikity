@@ -165,15 +165,35 @@ padding: 0;
 width: 24px;
 height: 32px;
 }
-/* .ellipsewhite{
+.ellipsewhite{
     width: 465px;
     height: 465px;
+    
 }
 .ellipseblue{
     width: 302px;
     height: 302px; 
-} */
+    
+}
 /* advantages */
+.womenwitharoket{
+    position: relative;
+    width: 628px;
+    height: 720px;
+}
+.firstkrug{
+position: absolute;
+right: 0;
+top: 80px;
+}
+.secondkrug{
+    position: absolute;
+    top: 280px;
+}
+.womanfoto{
+    z-index: 3;
+    position: absolute;
+}
 .advan-block{
     background-color: rgb(255, 255, 255);
     width: 1440px;
@@ -199,6 +219,89 @@ height: 32px;
     color: #808080;
 }
 /* how we work */
+.howework {
+    width: 1392px;
+    height: 800px;
+    border-radius: 12px;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+    justify-content: space-evenly;
+    
+
+    box-shadow: 0 4px 10px rgba(64, 11, 148, 0.3);
+    display: flex;
+    padding: 80px 40px;
+    background: linear-gradient(to right, #ffdcec, #e4e9ff);
+    /* Плавный градиент */
+    margin: auto
+    
+    
+}
+
+.hwwLeft {
+    display: flex;
+    font-size: 35px;
+    width: 720px;
+    height: 800px;
+
+
+
+}
+
+.Text {
+    color: black;
+}
+
+.photo {
+    width: 628px;
+    height: 639px;
+    
+   
+    position: relative;
+    
+}
+.krug1{
+     width: 302px;
+    height: 302px;
+    background-color: rgb(255, 66, 230);
+    border-radius: 50%;
+    position: absolute;
+    top: 257px;
+    left: 0;
+}
+.krug2{
+        width: 540px;
+    height: 540px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+.HwwRight {
+    width: 720px;
+    ;
+    height: 800px;
+    display: flex;
+    justify-content: center; }
+    .sagolovok{
+        color: black;
+        font-size: 50px;
+        align-items: center;
+        
+    }
+.podtext{
+    color: blue;
+    font-size: 25px;
+}
+ .Glavtext{
+    font-size: 20px;
+    color: gray;
+ }
+
+.atext{
+
 
 /* tarify vakavo*/
 
@@ -271,17 +374,39 @@ padding-right: 10px;
     padding-top: 16px;
     color: #4754EB;
 }
+=======
+    color: blue;
+    
+    
+}
+.Text1{
+    margin-top: 90px;
+}
+.Booking{
+     background-color: blue;
+     height: 40px;
+     width: 250px;
+     margin-top: 70px;
+     border-radius: 20px;
+     text-align: center;
+     padding-top: 15px;
+     
+}
+/* tarify Andrey 2 */
+
 
 /* rates Тимур */
 .maincatblock{
 width: 1392px;
-height: 800px;
 background: linear-gradient(to top left, #f0e8ff, #ffeefd, #ffffff);    
+margin: auto;
+margin-top: 20px;
+margin-bottom: 20px;
 }
 .starcatblock{
     width: 628px;
     height: 240px;
-    background-color: rgb(119, 119, 119);
+    background-color: rgb(255, 255, 255);
     border-radius: 15px;
     display: flex;
     text-wrap: nowrap;
@@ -299,7 +424,7 @@ background: linear-gradient(to top left, #f0e8ff, #ffeefd, #ffffff);
 }
 .catinfo{
     border-radius: 50%;
-    background-color: blue;
+    background-color: rgb(255, 255, 255);
     width: 64px;
     height: 64px;
     display: flex;
@@ -341,18 +466,100 @@ width: 64px;
 .startextblock{
     padding: 2px;
     height: 144px;
-    background-color: rgb(0, 191, 255);
+    background-color: rgb(255, 255, 255);
+    padding-left: 24px;
+
 }
 .goverticalplz{
-        width: 628px;
+        
     text-wrap: wrap;
+  
+    padding-top: 18px;
 }
-/* sale Олександр верни гроші */
+.starblock{
+    width: 136px;
+    height: 24px;
+    padding-top: 61px;
+}
+.reviewsblock{
+    margin-top: 80px;
+    margin-left: 56px;
+    width: 628px;
+    height: 40px;
+    font-size: 25px;
+    margin-bottom: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* sale Олександр */
 
 /* FrequentlyAskedQuestions */
 
 /* Connect */
+.speak{
+    width: 465px;
+    height: 96px;
+    font-size: 18px;
+    color: #808080;
+    padding: 40px;
+    
+}
+.conect{
+    width: 1440px;
+    display: flex;
+}
+.asks{
+    width: 465px;
+    height: 56px;
 
+}
+
+.whatdou{
+    width: 465px;
+    height: 80px;
+}
+.aaaaa{
+width: 238px;
+height: 32px;
+}
+.sandd{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    align-items: center;
+    padding: 40px;
+}
+
+.sendanapplication{
+    width: 203px;
+    height: 56px;
+    background-color: #4754EB;
+    color: white;
+    border-radius: 16px;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 40px;
+}
+.press{
+color: #808080;
+}
+.personaldata{
+    color: #4754EB;
+}
+.chelwithglasses{
+    width: 489px;
+    height: 489px;
+    gap: 163px;
+
+}
+.conection{
+    
+}
+.man{
+    padding: 140px;
+}
 /* footer vanya */
 p{
     margin: 0;
