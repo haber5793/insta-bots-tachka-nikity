@@ -407,7 +407,46 @@ width: 64px;
     padding-top: 61px;
 }
 /* sale Олександр */
+.Sale{
+    width: 1392px;
+    height: 640px;
+    background-color: #cf84e8;
+    align-items: center;
+    display: flex;
+    
+}
+.SamaFotka{
+    width: 465px;
+    height: 465px;
+    margin-top: 70px;
+}
+.Fotka{
+    background-color: #cf84e8;
+    width: 300px;
+    height: 300px;
 
+
+}
+.SaleLeft{
+    background-color: #FFFFFF;
+    width: 650px;
+    height: 640px;
+
+    
+}
+.SaleRight{
+    background-color: #d9d9e1;
+    width: 742px;
+    height: 640px;
+    gap: 150px;
+        flex-direction: column;
+    display: flex;
+    justify-content: center;
+    
+}
+.Vigoda{
+    font-size: 90px;
+}
 /* FrequentlyAskedQuestions */
 
 /* Connect */
