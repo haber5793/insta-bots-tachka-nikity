@@ -495,6 +495,108 @@ width: 64px;
 /* sale Олександр */
 
 /* FrequentlyAskedQuestions */
+.blok{
+    width: 1393px;
+    height: 784px;
+   background: #8d55c2;
+background: linear-gradient(15deg, rgba(141, 85, 194, 1) 0%, rgba(255, 255, 255, 1) 42%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 1) 58%, rgba(214, 116, 213, 1) 100%);
+
+    margin-left: 40px;
+    display: flex;
+}
+.tekst1{
+    width: 628px;
+    height: 40px;
+    margin-top: 80px;
+    font-size: 36px;
+    margin-left: 56px;
+}
+.voprosBLOK1{
+    margin-top: 20px;
+width: 1250px;
+height: 56px;
+background-color:  #FFFFFF80;
+display: flex;
+padding-top: 20px;
+border-radius: 16px 16px 0px 0px;
+}
+.vopros{
+    width: 628px;
+    height: 40px;
+    margin-left: 32px;
+}
+.plus{
+    width: 48px;
+    height: 48px;
+    background:  #FFFFFF80;
+margin-left: 500px;
+border-radius: 25px;
+}
+.voprosBLOK2{
+    width: 1250px;
+height: 56px;
+background-color:  #FFFFFF80;
+display: flex;
+padding-top: 20px;
+border-radius: 16px 16px 0px 0px;
+margin-top: 20px;
+}
+.vopros2{
+    width: 628px;
+    height: 40px;
+    margin-left: 32px;
+}
+.krest{
+    width: 48px;
+    height: 48px;
+    background:  #FFFFFF80;
+margin-left: 500px;
+border-radius: 25px; 
+}
+.voprosBLOK3{
+   width: 1250px;
+height: 56px;
+background-color:  #FFFFFF80;
+display: flex;
+padding-top: 20px;
+border-radius: 16px 16px 0px 0px;
+margin-top: 20px;
+}
+.vopros3{
+     width: 628px;
+    height: 40px;
+    margin-left: 32px;
+}
+.krest2{
+     width: 48px;
+    height: 48px;
+    background:  #FFFFFF80;
+margin-left: 500px;
+border-radius: 25px;
+
+}
+.voprosBLOK4{
+        width: 1250px;
+height: 56px;
+background-color:  #FFFFFF80;
+display: flex;
+padding-top: 20px;
+border-radius: 16px 16px 0px 0px;
+margin-top: 20px;
+}
+.vopros4{
+ width: 628px;
+    height: 40px;
+    margin-left: 32px;
+}
+.krest3{
+     width: 48px;
+    height: 48px;
+    background:  #FFFFFF80;
+margin-left: 500px;
+border-radius: 25px;
+}
+
 
 /* Connect */
 .speak{
