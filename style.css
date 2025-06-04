@@ -52,6 +52,8 @@ a{
 .header{
 justify-content: space-between;
     display: flex;
+    max-width: 1440px;
+    margin: auto;
 }
 .login{
     background-color: rgb(255, 255, 255);
@@ -145,7 +147,9 @@ color: #808080;
 width: 354px;
 height: 32px;
 font-size: 12px;
+margin-top: 16px;
 padding: 0;
+padding: 16px;
 }
 .listdal{
     margin-top: 333px;
@@ -204,7 +208,8 @@ top: 80px;
 }
 
 .advantoptext{
-    margin-left: 250px;
+    margin: auto;
+    max-width: 1440px;
 }
 
 .advaninside-block1{
