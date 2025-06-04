@@ -215,14 +215,61 @@ height: 32px;
     height: 500px;
     width: 800px;
     background: #ffffff;
-background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(217, 217, 217, 1) 100%);
+background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgb(243, 243, 243) 100%);
 margin: auto;
+padding-left: 10px;
+padding-right: 10px;
 }
 
 .texttarify{
     font-size: x-large;
     margin-left: 20px;
     margin-bottom: 10px;
+}
+
+.prisetarify{
+    font-size: large;
+    margin-left: 20px;
+}
+
+.typetarify{
+    font-size: 17px;
+    margin-left: 20px;
+    padding-top: 30px;
+    
+}
+
+.typetarify2{
+    font-size: 17px;
+    margin-left: 20px;
+    padding-top: 30px;
+}
+
+.typetarify3{
+    font-size: 17px;
+    margin-left: 20px;
+    padding-top: 30px;
+}
+
+.typetarify4{
+    font-size: 17px;
+    margin-left: 20px;
+    padding-top: 30px;
+}
+
+.abouttarify{
+    margin: auto;
+    width: 250px;
+    height: 50px;
+    background-color: #ffffff;
+    margin-top: 70px;
+    border-radius: 10px;
+}
+
+.abouttarifytext{
+    padding-left: 52px;
+    padding-top: 16px;
+    color: #4754EB;
 }
 
 /* rates Тимур */
