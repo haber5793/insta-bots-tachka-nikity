@@ -1,0 +1,58 @@
+@media only screen and (width <= 1450px) {
+    .HwwRight{
+        height: 100%;
+        width: 100%;
+
+    }
+    .HwwLeft{
+        
+    }
+     .krug1{
+        height: 270px;
+        width: 270px;
+       
+    }
+    .krug2{
+        height:450px ;
+        width:450px ;
+            top: 60px;
+    left: 100px;
+        
+    }
+    .Saly{
+        height: 450px;
+        width: 450px;
+    } 
+
+}
+
+@media only screen and (width <= 768px) {
+        .HwwRight{
+        height: 100%;
+        width: 100%;
+
+    }
+    .HwwLeft{
+        margin: auto;
+    }
+     .krug1{
+        height: 184px;
+        width: 184px;
+       
+    }
+    .krug2{
+        height:264px ;
+        width:264px ;
+            top: 140px;
+    left: 70px;
+        
+    }
+    .Saly{
+        height: 264px;
+        width: 264px;
+    } 
+
+
+
+
+}
