@@ -1,0 +1,5 @@
+@media only screen and (500px <= width <= 1000px){
+    .promo{
+        display: none;
+    }
+}
