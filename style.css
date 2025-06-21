@@ -205,11 +205,11 @@ top: 80px;
 }
 .advan-block{
     background-color: rgb(255, 255, 255);
-    width: 1440px;
-    height: 250px;
+    max-width: 1440px;
     display: flex;
     gap: 100px;
     margin: auto;
+    flex-wrap: wrap;
 }
 
 .advantoptext{
@@ -218,9 +218,9 @@ top: 80px;
 }
 
 .advaninside-block1{
-    width: 400px;
+    max-width: 400px;
     margin-left: 15px;
-    
+    margin: auto;
 }
 
 .advaninsideblock-text1{
@@ -674,33 +674,34 @@ p{
     margin: 0;
 }
 
-.footer-block{
+.footer-block {
     background-color: #4754EB;
-    width: 1440px;
-    height: 120px;
+    max-width: 1440px;
+    width: 100%;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    margin: auto;   
+    margin: auto;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
-.footer-text-left{
-    color: #FFFFFF; 
-    padding-left: 25px;
-    margin-bottom: 0;
-    padding-bottom: 15px;
-}
-
-.footer-text-left2{
-    color: hsl(0, 0%, 68%); 
-    padding-left: 25px;
-    margin-bottom: 10px;
-}
-
-.footer-text-right{
-    padding-bottom: 5px;
+.footer-text-left,
+.footer-text-left2 {
     color: #FFFFFF;
-    margin-right: 10px;
+    margin-bottom: 5px;
+    flex: 1 1 300px;
+}
+
+.footer-text-left2 {
+    color: hsl(0, 0%, 68%);
+}
+
+.footer-text-right {
+    color: #FFFFFF;
+    flex: 1 1 100px;
+    text-align: right;
 }
