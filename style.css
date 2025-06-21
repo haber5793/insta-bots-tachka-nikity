@@ -96,6 +96,7 @@ body{
     width: 628px;
     height: 210px;
     font-size: 56px ;
+    min-width: 500px;
 
 }
 .promo{
@@ -105,8 +106,9 @@ max-width: 1440px;
 height: 850px;
 margin: auto;
 display: flex;
+flex-wrap: wrap;
 
-}
+}   
 .email{
     width: 465px;
     height: 64px;
@@ -178,6 +180,9 @@ height: 32px;
     width: 302px;
     height: 302px; 
     
+}
+.womenwitharoket{
+    min-width: 500px;
 }
 /* advantages */
 .womenwitharoket{
@@ -664,16 +669,16 @@ p{
 
 .footer-block{
     background-color: #4754EB;
-    width: 1440px;
+    max-width: 1440px;
     height: 120px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: auto;   
-}
+    margin: auto;
 
+}
 .footer-text-left{
     color: #FFFFFF; 
     padding-left: 25px;
@@ -690,5 +695,5 @@ p{
 .footer-text-right{
     padding-bottom: 5px;
     color: #FFFFFF;
-    margin-right: 10px;
+    margin-right: 10px;       
 }
