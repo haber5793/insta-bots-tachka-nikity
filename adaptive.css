@@ -3,3 +3,11 @@
         display: none;
     }
 }
+@media only screen and (width <= 400px){
+    .maincatblock{
+        padding: 5px;
+    }
+    .starcatblock{
+        max-width: 300px;
+    }
+}

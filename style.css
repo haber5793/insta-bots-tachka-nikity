@@ -399,15 +399,17 @@ padding-right: 10px;
 
 /* rates Тимур */
 .maincatblock{
-width: 1392px;
+max-width: 1392px;
 background: linear-gradient(to top left, #f0e8ff, #ffeefd, #ffffff);    
 margin: auto;
 margin-top: 20px;
 margin-bottom: 20px;
+padding: 20px;
 }
 .starcatblock{
-    width: 628px;
-    height: 240px;
+    max-width: 628px;
+    min-width: 320px;
+    height: 100%;
     background-color: rgb(255, 255, 255);
     border-radius: 15px;
     display: flex;
@@ -418,12 +420,10 @@ margin-bottom: 20px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-top: 10px;
+    flex-wrap: wrap;
 }
-.secondaryblock2{
- display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
+
 .catinfo{
     border-radius: 50%;
     background-color: rgb(255, 255, 255);
@@ -467,8 +467,6 @@ width: 64px;
 }
 .startextblock{
     padding: 2px;
-    height: 144px;
-    background-color: rgb(255, 255, 255);
     padding-left: 24px;
 
 }
@@ -481,13 +479,11 @@ width: 64px;
 .starblock{
     width: 136px;
     height: 24px;
-    padding-top: 61px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .reviewsblock{
-    margin-top: 80px;
     margin-left: 56px;
-    width: 628px;
-    height: 40px;
     font-size: 25px;
     margin-bottom: 35px;
     font-family: Arial, Helvetica, sans-serif;
@@ -496,12 +492,11 @@ width: 64px;
 
 /* FrequentlyAskedQuestions */
 .blok{
-    width: 1393px;
+    max-width: 1393px;
     height: 784px;
    background: #8d55c2;
 background: linear-gradient(15deg, rgba(141, 85, 194, 1) 0%, rgba(255, 255, 255, 1) 42%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 1) 58%, rgba(214, 116, 213, 1) 100%);
-
-    margin-left: 40px;
+    margin: auto;
     display: flex;
 }
 .tekst1{
@@ -608,8 +603,11 @@ border-radius: 25px;
     
 }
 .conect{
-    width: 1440px;
+    max-width: 1400px;
     display: flex;
+    margin: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 .asks{
     width: 465px;
@@ -653,17 +651,12 @@ color: #808080;
     color: #4754EB;
 }
 .chelwithglasses{
-    width: 489px;
-    height: 489px;
-    gap: 163px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
-.conection{
-    
-}
-.man{
-    padding: 140px;
-}
+
 /* footer vanya */
 p{
     margin: 0;
