@@ -1,3 +1,125 @@
+
+@media only screen and (width <= 1456px) {
+    .HwwRight{
+        height: 100%;
+        width: 100%;
+
+    }
+    .HwwLeft{
+        
+    }
+     .krug1{
+        height: 350px;
+        width: 350px;
+       
+    }
+    .krug2{
+        height:605px ;
+        width:605px ;
+            top: 10px;
+    left: 90px;
+        
+    }
+    .Saly{
+        height: 605px;
+        width: 605px;
+    } 
+
+}
+@media only screen and (width <= 900px) {
+    .HwwRight{
+        height: 100%;
+        width: 100%;
+
+    }
+    .HwwLeft{
+        
+    }
+     .krug1{
+        height: 270px;
+        width: 270px;
+       
+    }
+    .krug2{
+        height:450px ;
+        width:450px ;
+            top: 60px;
+    left: 100px;
+        
+    }
+    .Saly{
+        height: 450px;
+        width: 450px;
+    } 
+.photo{
+    height: 560px;
+}
+
+}
+@media only screen and (width <= 768px) {
+        .HwwRight{
+        height: 100%;
+        width: 100%;
+
+    }
+    .HwwLeft{
+        margin: auto;
+    }
+     .krug1{
+        height: 300px;
+        width: 300px;
+       
+    }
+    .krug2{
+        height:450px ;
+        width:450px ;
+            top: 80px;
+    left: 85px;
+        
+    }
+    .Saly{
+        height: 450px;
+        width: 450px;
+    } 
+
+
+
+
+}
+@media only screen and (width <= 602px) {
+        .HwwRight{
+        height: 100%;
+        width: 100%;
+
+    }
+    .HwwLeft{
+        margin: auto;
+    }
+     .krug1{
+        height: 150px;
+        width: 150px;
+       
+    }
+    .krug2{
+        height:300px ;
+        width:300px ;
+            top: 90px;
+    left: 70px;
+        
+    }
+    .Saly{
+        height: 300px;
+        width: 300px;
+    } 
+    .photo{
+        height: 350px;
+    }
+
+
+
+
+}
+
 @media only screen and (width <= 1400px){
     .listdal{
         display: none;
@@ -20,3 +142,4 @@
         max-width: 300px;
     }
 }
+
