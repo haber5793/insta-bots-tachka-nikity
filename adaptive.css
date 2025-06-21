@@ -1,3 +1,12 @@
+@media only screen and (width <= 1400px){
+    .listdal{
+        display: none;
+    }
+    .promo{
+        height: 100%;
+        padding: 30px;
+    }
+}
 @media only screen and (500px <= width <= 1000px){
     .promo{
         display: none;
