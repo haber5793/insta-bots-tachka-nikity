@@ -422,6 +422,142 @@ padding: 20px;
     display: flex;
     text-wrap: nowrap;
 }
+.text{
+    padding: 56px;
+}
+
+.hightlevl{
+    max-width: 628px;
+    height: 210px;
+    font-size: 56px ;
+
+}
+.promo{
+    background: #cf84e8;
+background: radial-gradient(ellipse at bottom left, #948dff 0%, #f7f7ff 40%, #ffffff 100%);
+max-width: 1440px;
+
+margin: auto;
+display: flex;
+flex-wrap: wrap;
+
+}
+.email{
+    max-width: 465px;
+    height: 64px;
+    border-radius: 16px;
+    position: relative;
+}
+.inputemail{
+    max-width: 465px;
+    height: 64px;
+    border-radius: 16px;
+    background-color: rgba(255,255,255,0.5);
+    border: none;
+
+}
+.send{
+    color: #4754eb;
+    border-radius: 16px;
+    max-width: 143px;
+    height: 48px;
+    background-color: #ffffff;
+    border: none;
+}
+.button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    top: 8px;
+}
+.obradotka{
+color: #808080;
+
+}
+.persdan{
+    color: #4754eb;
+    
+}
+.glavobrabotka{
+max-width: 354px;
+height: 32px;
+font-size: 12px;
+margin-top: 16px;
+padding: 0;
+padding: 16px;
+}
+.listdal{
+    margin-top: 333px;
+    display: flex;
+    gap: 8px;
+    max-width: 165px;
+    height: 32px;
+    align-items: center;
+    
+}
+.Scroll{
+    max-width: 133px;
+    height: 22px;
+    font-size: 16px;
+}
+.mouse{
+width: 24px;
+height: 32px;
+}
+.ellipsewhite{
+    width: 465px;
+    height: 465px;
+    
+}
+.ellipseblue{
+    width: 302px;
+    height: 302px; 
+    
+}
+/* advantages */
+.womenwitharoket{
+    position: relative;
+    width: 628px;
+    height: 720px;
+}
+.firstkrug{
+position: absolute;
+right: 0;
+top: 80px;
+}
+.secondkrug{
+    position: absolute;
+    top: 280px;
+}
+.womanfoto{
+    z-index: 3;
+    position: absolute;
+}
+.advan-block{
+    background-color: rgb(255, 255, 255);
+    width: 1440px;
+    height: 250px;
+    display: flex;
+    gap: 100px;
+    margin: auto;
+}
+
+.advantoptext{
+    margin: auto;
+    max-width: 1440px;
+}
+
+.advaninside-block1{
+    width: 400px;
+    margin-left: 15px;
+    
+}
+
+.advaninsideblock-text1{
+    margin-top: 30px;
+    font-size: large;
+    color: #808080;
+}
 .secondaryblock1{
     gap: 10px;
     display: flex;

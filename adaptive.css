@@ -143,3 +143,31 @@
     }
 }
 
+@media only screen and (width <= 1400px){
+    .listdal{
+        display: none;
+    }
+    .promo{
+        justify-content: center;
+    }
+}
+@media only screen and (width <= 700px){
+    .promo{
+        max-width: 692px;
+    }
+    .hightlevl{
+        font-size: 36px; ;
+    }
+}
+@media only screen and (width <= 700px){
+    .firstkrug{
+        width: 264px;
+    }
+    .secondkrug{
+        width: 184px;
+    }
+    .womanfoto{
+        width: 343px;
+    }
+    
+}
