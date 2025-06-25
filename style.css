@@ -210,6 +210,7 @@ top: 80px;
     gap: 100px;
     margin: auto;
     flex-wrap: wrap;
+    padding: 10px;
 }
 
 .advantoptext{
@@ -533,25 +534,6 @@ top: 80px;
     z-index: 3;
     position: absolute;
 }
-.advan-block{
-    background-color: rgb(255, 255, 255);
-    width: 1440px;
-    height: 250px;
-    display: flex;
-    gap: 100px;
-    margin: auto;
-}
-
-.advantoptext{
-    margin: auto;
-    max-width: 1440px;
-}
-
-.advaninside-block1{
-    width: 400px;
-    margin-left: 15px;
-    
-}
 
 .advaninsideblock-text1{
     margin-top: 30px;
@@ -776,6 +758,7 @@ border-radius: 25px;
 
 
 /* Connect */
+
 .speak{
     width: 465px;
     height: 96px;
@@ -784,12 +767,16 @@ border-radius: 25px;
     padding: 40px;
     
 }
+.conection{
+    padding: 40px;
+}
 .conect{
     max-width: 1400px;
     display: flex;
     margin: auto;
     justify-content: space-around;
     flex-wrap: wrap;
+    
 }
 .asks{
     width: 465px;

@@ -129,11 +129,11 @@
         padding: 30px;
     }
 }
-@media only screen and (500px <= width <= 1000px){
+ /* @media only screen and (500px <= width <= 1000px){
     .promo{
         display: none;
-    }
-}
+    } 
+}  */
 @media only screen and (width <= 400px){
     .maincatblock{
         padding: 5px;
@@ -170,4 +170,9 @@
         width: 343px;
     }
     
+}
+@media only screen and (width <= 1100px){
+    .chelwithglasses{
+        display: none;
+    }
 }
