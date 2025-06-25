@@ -141,6 +141,9 @@
     .starcatblock{
         max-width: 300px;
     }
+    .text{
+        font-size: 36px;
+    }
 }
 
 @media only screen and (width <= 1400px){
