@@ -36,6 +36,7 @@ a{
     font-size: 25px;
     display: flex;
     justify-content: center;
+    gap: 17px;
    
 }
 .navbar{
@@ -83,6 +84,14 @@ margin-top: 10px;
     align-items: center;
 
 
+}
+.Kartinka{
+    height: 25px;
+    width: 25px;
+    display: none;
+}
+.chelovechek{
+    display: none;
 }
 /* promo Андрей 1 */
 body{

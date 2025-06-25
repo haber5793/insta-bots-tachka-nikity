@@ -140,6 +140,34 @@
     }
     .starcatblock{
         max-width: 300px;
+        
     }
 }
 
+@media only screen and (width <=1285px){
+.navbar{
+    display: none;
+    
+    }
+    .lang{
+        display: none;
+    }
+    .Kartinka{
+  
+    display: flex;
+}
+}
+
+@media only screen and (width <=600px){
+
+.chelovechek{
+    display: flex;
+    margin-left: 140px
+}
+.regbutton{
+    display: none;
+}
+.reg{
+    background-color: white;
+}
+}
