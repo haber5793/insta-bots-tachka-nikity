@@ -678,6 +678,7 @@ background-color:  #FFFFFF80;
 display: flex;
 padding-top: 20px;
 border-radius: 16px 16px 0px 0px;
+transition: all 0.5s linear;
 }
 .vopros{
     width: 628px;
@@ -860,4 +861,21 @@ p{
     padding-bottom: 5px;
     color: #FFFFFF;
     margin-right: 10px;       
+}
+
+.otvetblock{
+    background-color: #4754EB;
+}
+.hide{
+    display: none;
+}
+
+.microanim{
+    background-color: goldenrod;
+    transition: all 0.5s linear;
+}
+.hidede{
+    opacity: 0;
+    transition: all 0.5s linear;
+    transform: translateY(-100px);
 }
