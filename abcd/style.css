@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.block{
+    background-color: #1f1f1f;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    border-radius: 5px;
+}
+.blocks{
+    display: flex;
+    flex-wrap: wrap;
+}
