@@ -963,6 +963,7 @@ p {
 
 .otvetblock {
     background-color: #4754EB;
+    transition: all 0.2s linear;
 }
 
 .hide {
@@ -970,12 +971,10 @@ p {
 }
 
 .microanim {
-    background-color: goldenrod;
-    transition: all 0.5s linear;
 }
 
 .hidede {
     opacity: 0;
     transform: translateY(-50px);
-    transition: all 0.5s linear;
+    transition: all 0.2s linear;
 }
