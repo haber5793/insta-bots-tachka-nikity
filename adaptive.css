@@ -1,0 +1,181 @@
+
+@media only screen and (width <= 1456px) {
+    .HwwRight{
+        height: 100%;
+        width: 100%;
+
+    }
+    .HwwLeft{
+        
+    }
+     .krug1{
+        height: 350px;
+        width: 350px;
+       
+    }
+    .krug2{
+        height:605px ;
+        width:605px ;
+            top: 10px;
+    left: 90px;
+        
+    }
+    .Saly{
+        height: 605px;
+        width: 605px;
+    } 
+
+}
+@media only screen and (width <= 900px) {
+    .HwwRight{
+        height: 100%;
+        width: 100%;
+
+    }
+    .HwwLeft{
+        
+    }
+     .krug1{
+        height: 270px;
+        width: 270px;
+       
+    }
+    .krug2{
+        height:450px ;
+        width:450px ;
+            top: 60px;
+    left: 100px;
+        
+    }
+    .Saly{
+        height: 450px;
+        width: 450px;
+    } 
+.photo{
+    height: 560px;
+}
+
+}
+@media only screen and (width <= 768px) {
+        .HwwRight{
+        height: 100%;
+        width: 100%;
+
+    }
+    .HwwLeft{
+        margin: auto;
+    }
+     .krug1{
+        height: 300px;
+        width: 300px;
+       
+    }
+    .krug2{
+        height:450px ;
+        width:450px ;
+            top: 80px;
+    left: 85px;
+        
+    }
+    .Saly{
+        height: 450px;
+        width: 450px;
+    } 
+
+
+
+
+}
+@media only screen and (width <= 602px) {
+        .HwwRight{
+        height: 100%;
+        width: 100%;
+
+    }
+    .HwwLeft{
+        margin: auto;
+    }
+     .krug1{
+        height: 150px;
+        width: 150px;
+       
+    }
+    .krug2{
+        height:300px ;
+        width:300px ;
+            top: 90px;
+    left: 70px;
+        
+    }
+    .Saly{
+        height: 300px;
+        width: 300px;
+    } 
+    .photo{
+        height: 350px;
+    }
+
+
+
+
+}
+
+@media only screen and (width <= 1400px){
+    .listdal{
+        display: none;
+    }
+    .promo{
+        height: 100%;
+        padding: 30px;
+    }
+}
+ /* @media only screen and (500px <= width <= 1000px){
+    .promo{
+        display: none;
+    } 
+}  */
+@media only screen and (width <= 400px){
+    .maincatblock{
+        padding: 5px;
+    }
+    .starcatblock{
+        max-width: 300px;
+    }
+    .text{
+        font-size: 36px;
+    }
+}
+
+@media only screen and (width <= 1400px){
+    .listdal{
+        display: none;
+    }
+    .promo{
+        justify-content: center;
+    }
+}
+@media only screen and (width <= 700px){
+    .promo{
+        max-width: 692px;
+    }
+    .hightlevl{
+        font-size: 36px; ;
+    }
+}
+@media only screen and (width <= 700px){
+    .firstkrug{
+        width: 264px;
+    }
+    .secondkrug{
+        width: 184px;
+    }
+    .womanfoto{
+        width: 343px;
+    }
+    
+}
+@media only screen and (width <= 1100px){
+    .chelwithglasses{
+        display: none;
+    }
+}
