@@ -8,9 +8,9 @@ window.addEventListener('mousemove',(info)=>{
     let distH = block.offsetTop - info.clientY + 10
     let dist = Math.sqrt(distH*distH + distW*distW)
     if (dist < 100) {
-        block.style.opacity = 1-dist/150
+        block.style.opacity = 0-dist/150
     }else{
-        block.style.opacity = 0
+        block.style.opacity = 1
     }
     })
 
