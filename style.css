@@ -1,16 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="adaptive.css">
-</head>
-
-<body>
-    @font-face {
+@font-face {
     font-family: "Visuelt";
     src:
         url("VisueltPro-Regular.ttf ")
@@ -20,26 +8,30 @@
     font-family: "Visuelt";
     scroll-behavior: smooth;
 }
-a{
+
+a {
     text-decoration: none;
 }
 
 
 /* header Roma */
-.navbar > a {
+.navbar>a {
     color: #808080;
     transition: color 0.4s linear;
 }
-.navbar > a:visited {
+
+.navbar>a:visited {
     color: #808080;
     transition: color 0.4s linear;
 }
-.navbar > a:hover {
+
+.navbar>a:hover {
     color: #885fef;
     transition: color 0.2s linear;
 }
-.logo{
-    
+
+.logo {
+
     background-color: rgb(255, 255, 255);
     width: 270px;
     height: 70px;
@@ -48,43 +40,48 @@ a{
     font-size: 25px;
     display: flex;
     justify-content: center;
-   
+
 }
-.navbar{
+
+.navbar {
     background-color: rgb(255, 255, 255);
     margin-top: 30px;
     font-size: 22px;
     width: 650px;
     height: 70px;
     gap: 30px;
-     display: flex;
-     justify-content: space-between;
-     color: gray;
+    display: flex;
+    justify-content: space-between;
+    color: gray;
 }
-.header{
-justify-content: space-between;
+
+.header {
+    justify-content: space-between;
     display: flex;
     max-width: 1440px;
     margin: auto;
 }
-.login{
+
+.login {
     background-color: rgb(255, 255, 255);
     font-size: 25px;
     width: 350px;
     height: 70px;
-margin-top: 10px;
+    margin-top: 10px;
     justify-content: space-evenly;
     display: flex;
     align-items: center;
 }
 
-.En{
+.En {
     color: blue;
 }
-.Ru{
-    color:gray
+
+.Ru {
+    color: gray
 }
-.reg{
+
+.reg {
     width: 200px;
     height: 50px;
     background-color: rgb(74, 74, 255);
@@ -96,46 +93,52 @@ margin-top: 10px;
 
 
 }
+
 /* promo Андрей 1 */
-body{
+body {
     margin: 0;
-} 
-.text{
+}
+
+.text {
     padding: 56px;
 }
 
-.hightlevl{
+.hightlevl {
     width: 628px;
     height: 210px;
-    font-size: 56px ;
+    font-size: 56px;
     min-width: 500px;
 
 }
-.promo{
-    background: #cf84e8;
-background: radial-gradient(ellipse at bottom left, #948dff 0%, #f7f7ff 40%, #ffffff 100%);
-max-width: 1440px;
-height: 850px;
-margin: auto;
-display: flex;
-flex-wrap: wrap;
 
-}   
-.email{
+.promo {
+    background: #cf84e8;
+    background: radial-gradient(ellipse at bottom left, #948dff 0%, #f7f7ff 40%, #ffffff 100%);
+    max-width: 1440px;
+    height: 850px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.email {
     width: 465px;
     height: 64px;
     border-radius: 16px;
     position: relative;
 }
-.inputemail{
+
+.inputemail {
     width: 465px;
     height: 64px;
     border-radius: 16px;
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(255, 255, 255, 0.5);
     border: none;
 
 }
-.send{
+
+.send {
     color: #4754eb;
     border-radius: 16px;
     width: 143px;
@@ -143,79 +146,94 @@ flex-wrap: wrap;
     background-color: #ffffff;
     border: none;
 }
-.button{
+
+.button {
     position: absolute;
     top: 0;
     right: 0;
     top: 8px;
 }
-.obradotka{
-color: #808080;
+
+.obradotka {
+    color: #808080;
 
 }
-.persdan{
+
+.persdan {
     color: #4754eb;
-    
+
 }
-.glavobrabotka{
-width: 354px;
-height: 32px;
-font-size: 12px;
-margin-top: 16px;
-padding: 0;
-padding: 16px;
+
+.glavobrabotka {
+    width: 354px;
+    height: 32px;
+    font-size: 12px;
+    margin-top: 16px;
+    padding: 0;
+    padding: 16px;
 }
-.listdal{
+
+.listdal {
     margin-top: 333px;
     display: flex;
     gap: 8px;
     width: 165px;
     height: 32px;
     align-items: center;
-    
+
 }
-.Scroll{
+
+.Scroll {
     width: 133px;
     height: 22px;
     font-size: 16px;
 }
-.mouse{
-width: 24px;
-height: 32px;
+
+.mouse {
+    width: 24px;
+    height: 32px;
 }
-.ellipsewhite{
+
+.ellipsewhite {
     width: 465px;
     height: 465px;
-    
+
 }
-.ellipseblue{
+
+.ellipseblue {
     width: 302px;
-    height: 302px; 
-    
+    height: 302px;
+
 }
-.womenwitharoket{
+
+.womenwitharoket {
     min-width: 500px;
 }
+
 /* advantages */
-.womenwitharoket{
+.womenwitharoket {
     position: relative;
     width: 628px;
     height: 720px;
 }
-.firstkrug{
-position: absolute;
-right: 0;
-top: 80px;
+
+.firstkrug {
+    position: absolute;
+    right: 0;
+    top: 80px;
 }
-.secondkrug{
+
+.secondkrug {
     position: absolute;
     top: 280px;
 }
-.womanfoto{
+
+.womanfoto {
     z-index: 3;
     position: absolute;
 }
-.advan-block{
+
+.advan-block {
     background-color: rgb(255, 255, 255);
     max-width: 1440px;
     display: flex;
@@ -225,33 +243,34 @@ top: 80px;
     padding: 10px;
 }
 
-.advantoptext{
+.advantoptext {
     margin: auto;
     max-width: 1440px;
 }
 
-.advaninside-block1{
+.advaninside-block1 {
     max-width: 400px;
     margin-left: 15px;
     margin: auto;
 }
 
-.advaninsideblock-text1{
+.advaninsideblock-text1 {
     margin-top: 30px;
     font-size: large;
     color: #808080;
 }
+
 /* how we work */
 .howework {
-   max-width: 1392px;
+    max-width: 1392px;
     border-radius: 12px;
     padding: 20px;
     color: white;
     font-size: 20px;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    
-    
+
+
 
     box-shadow: 0 4px 10px rgba(64, 11, 148, 0.3);
     display: flex;
@@ -259,8 +278,6 @@ top: 80px;
     background: linear-gradient(to right, #ffdcec, #e4e9ff);
     /* Плавный градиент */
     margin: auto
-    
-    
 }
 
 .hwwLeft {
@@ -280,13 +297,14 @@ top: 80px;
 .photo {
     width: 628px;
     height: 639px;
-    
-   
+
+
     position: relative;
-    
+
 }
-.krug1{
-     width: 302px;
+
+.krug1 {
+    width: 302px;
     height: 302px;
     background-color: rgb(255, 66, 230);
     border-radius: 50%;
@@ -294,8 +312,9 @@ top: 80px;
     top: 257px;
     left: 0;
 }
-.krug2{
-        width: 540px;
+
+.krug2 {
+    width: 540px;
     height: 540px;
     background-color: aliceblue;
     border-radius: 50%;
@@ -303,35 +322,37 @@ top: 80px;
     right: 0px;
     position: absolute;
 }
+
 .HwwRight {
     width: 720px;
-    
+
     height: 800px;
     display: flex;
-    justify-content: center; }
-    
-    .sagolovok{
-        color: black;
-        font-size: 50px;
-        align-items: center;
-        
-    }
-.podtext{
+    justify-content: center;
+}
+
+.sagolovok {
+    color: black;
+    font-size: 50px;
+    align-items: center;
+
+}
+
+.podtext {
     color: blue;
     font-size: 25px;
 }
- .Glavtext{
+
+.Glavtext {
     font-size: 20px;
     color: gray;
- }
-
-.atext{
-
 }
+
+.atext {}
 
 /* tarify vakavo*/
 
-.blocktarify{
+.blocktarify {
     width: 1400px;
     height: 800px;
     background-color: rgb(255, 255, 255);
@@ -340,53 +361,53 @@ top: 80px;
     margin: auto;
 }
 
-.blockinsidetarify{
+.blockinsidetarify {
     height: 500px;
     width: 800px;
     background: #ffffff;
-background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgb(243, 243, 243) 100%);
-margin: auto;
-padding-left: 10px;
-padding-right: 10px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgb(243, 243, 243) 100%);
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
-.texttarify{
+.texttarify {
     font-size: x-large;
     margin-left: 20px;
     margin-bottom: 10px;
 }
 
-.prisetarify{
+.prisetarify {
     font-size: large;
     margin-left: 20px;
 }
 
-.typetarify{
+.typetarify {
     font-size: 17px;
     margin-left: 20px;
     padding-top: 30px;
-    
+
 }
 
-.typetarify2{
-    font-size: 17px;
-    margin-left: 20px;
-    padding-top: 30px;
-}
-
-.typetarify3{
+.typetarify2 {
     font-size: 17px;
     margin-left: 20px;
     padding-top: 30px;
 }
 
-.typetarify4{
+.typetarify3 {
     font-size: 17px;
     margin-left: 20px;
     padding-top: 30px;
 }
 
-.abouttarify{
+.typetarify4 {
+    font-size: 17px;
+    margin-left: 20px;
+    padding-top: 30px;
+}
+
+.abouttarify {
     margin: auto;
     width: 250px;
     height: 50px;
@@ -395,38 +416,41 @@ padding-right: 10px;
     border-radius: 10px;
 }
 
-.abouttarifytext{
+.abouttarifytext {
     padding-left: 52px;
     padding-top: 16px;
     color: #4754EB;
 }
 
-.Text1{
+.Text1 {
     margin-top: 90px;
 }
-.Booking{
-     background-color: blue;
-     height: 40px;
-     width: 250px;
-     margin-top: 70px;
-     border-radius: 20px;
-     text-align: center;
-     padding-top: 15px;
-     
+
+.Booking {
+    background-color: blue;
+    height: 40px;
+    width: 250px;
+    margin-top: 70px;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 15px;
+
 }
+
 /* tarify Andrey 2 */
 
 
 /* rates Тимур */
-.maincatblock{
-max-width: 1392px;
-background: linear-gradient(to top left, #f0e8ff, #ffeefd, #ffffff);    
-margin: auto;
-margin-top: 20px;
-margin-bottom: 20px;
-padding: 20px;
+.maincatblock {
+    max-width: 1392px;
+    background: linear-gradient(to top left, #f0e8ff, #ffeefd, #ffffff);
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
 }
-.starcatblock{
+
+.starcatblock {
     max-width: 628px;
     min-width: 320px;
     height: 100%;
@@ -435,41 +459,46 @@ padding: 20px;
     display: flex;
     text-wrap: nowrap;
 }
-.text{
+
+.text {
     padding: 56px;
 }
 
-.hightlevl{
+.hightlevl {
     max-width: 628px;
     height: 210px;
-    font-size: 56px ;
+    font-size: 56px;
 
 }
-.promo{
+
+.promo {
     background: #cf84e8;
-background: radial-gradient(ellipse at bottom left, #948dff 0%, #f7f7ff 40%, #ffffff 100%);
-max-width: 1440px;
+    background: radial-gradient(ellipse at bottom left, #948dff 0%, #f7f7ff 40%, #ffffff 100%);
+    max-width: 1440px;
 
-margin: auto;
-display: flex;
-flex-wrap: wrap;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
 
 }
-.email{
+
+.email {
     max-width: 465px;
     height: 64px;
     border-radius: 16px;
     position: relative;
 }
-.inputemail{
+
+.inputemail {
     max-width: 465px;
     height: 64px;
     border-radius: 16px;
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(255, 255, 255, 0.5);
     border: none;
 
 }
-.send{
+
+.send {
     color: #4754eb;
     border-radius: 16px;
     max-width: 143px;
@@ -477,82 +506,96 @@ flex-wrap: wrap;
     background-color: #ffffff;
     border: none;
 }
-.button{
+
+.button {
     position: absolute;
     top: 0;
     right: 0;
     top: 8px;
 }
-.obradotka{
-color: #808080;
+
+.obradotka {
+    color: #808080;
 
 }
-.persdan{
+
+.persdan {
     color: #4754eb;
-    
+
 }
-.glavobrabotka{
-max-width: 354px;
-height: 32px;
-font-size: 12px;
-margin-top: 16px;
-padding: 0;
-padding: 16px;
+
+.glavobrabotka {
+    max-width: 354px;
+    height: 32px;
+    font-size: 12px;
+    margin-top: 16px;
+    padding: 0;
+    padding: 16px;
 }
-.listdal{
+
+.listdal {
     margin-top: 333px;
     display: flex;
     gap: 8px;
     max-width: 165px;
     height: 32px;
     align-items: center;
-    
+
 }
-.Scroll{
+
+.Scroll {
     max-width: 133px;
     height: 22px;
     font-size: 16px;
 }
-.mouse{
-width: 24px;
-height: 32px;
+
+.mouse {
+    width: 24px;
+    height: 32px;
 }
-.ellipsewhite{
+
+.ellipsewhite {
     width: 465px;
     height: 465px;
-    
+
 }
-.ellipseblue{
+
+.ellipseblue {
     width: 302px;
-    height: 302px; 
-    
+    height: 302px;
+
 }
+
 /* advantages */
-.womenwitharoket{
+.womenwitharoket {
     position: relative;
     width: 628px;
     height: 720px;
 }
-.firstkrug{
-position: absolute;
-right: 0;
-top: 80px;
+
+.firstkrug {
+    position: absolute;
+    right: 0;
+    top: 80px;
 }
-.secondkrug{
+
+.secondkrug {
     position: absolute;
     top: 280px;
 }
-.womanfoto{
+
+.womanfoto {
     z-index: 3;
     position: absolute;
 }
 
-.advaninsideblock-text1{
+.advaninsideblock-text1 {
     margin-top: 30px;
     font-size: large;
     color: #808080;
 }
-.secondaryblock1{
+
+.secondaryblock1 {
     gap: 10px;
     display: flex;
     justify-content: space-around;
@@ -561,7 +604,7 @@ top: 80px;
     flex-wrap: wrap;
 }
 
-.catinfo{
+.catinfo {
     border-radius: 50%;
     background-color: rgb(255, 255, 255);
     width: 64px;
@@ -570,242 +613,280 @@ top: 80px;
     align-items: center;
     flex-direction: row;
 }
-.catphoto{
-border-radius: 50%;
-width: 64px;
-    height: 64px;
-}
-.catphoto2{
-     border-radius: 50%;
-     width: 64px;
-    height: 64px;
-}
-.catphoto3{
+
+.catphoto {
     border-radius: 50%;
     width: 64px;
     height: 64px;
 }
-.catphoto4{
+
+.catphoto2 {
     border-radius: 50%;
     width: 64px;
     height: 64px;
 }
-.serega{
+
+.catphoto3 {
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+}
+
+.catphoto4 {
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+}
+
+.serega {
     margin-left: 23px;
 }
-.saimon{
+
+.saimon {
     margin-left: 23px;
 }
-.olezhka{
+
+.olezhka {
     margin-left: 23px;
 }
-.inokentiy{
+
+.inokentiy {
     margin-left: 23px;
 }
-.startextblock{
+
+.startextblock {
     padding: 2px;
     padding-left: 24px;
 
 }
-.goverticalplz{
-        
+
+.goverticalplz {
+
     text-wrap: wrap;
-  
+
     padding-top: 18px;
 }
-.starblock{
+
+.starblock {
     width: 136px;
     height: 24px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
-.reviewsblock{
+
+.reviewsblock {
     margin-left: 56px;
     font-size: 25px;
     margin-bottom: 35px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 /* sale Олександр */
-.Sale{
+.Sale {
     width: 1392px;
     height: 640px;
     background-color: #cf84e8;
     align-items: center;
     display: flex;
-    
+
 }
-.SamaFotka{
+
+.SamaFotka {
     width: 465px;
     height: 465px;
     margin-top: 70px;
 }
-.Fotka{
+
+.Fotka {
     background-color: #cf84e8;
     width: 300px;
     height: 300px;
 
 
 }
-.SaleLeft{
+
+.SaleLeft {
     background-color: #FFFFFF;
     width: 650px;
     height: 640px;
 
-    
+
 }
-.SaleRight{
+
+.SaleRight {
     background-color: #d9d9e1;
     width: 742px;
     height: 640px;
     gap: 150px;
-        flex-direction: column;
+    flex-direction: column;
     display: flex;
     justify-content: center;
-    
+
 }
-.Vigoda{
+
+.Vigoda {
     font-size: 90px;
 }
+
 /* FrequentlyAskedQuestions */
-.blok{
+.blok {
     max-width: 1393px;
     height: 784px;
-   background: #8d55c2;
-background: linear-gradient(15deg, rgba(141, 85, 194, 1) 0%, rgba(255, 255, 255, 1) 42%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 1) 58%, rgba(214, 116, 213, 1) 100%);
+    background: #8d55c2;
+    background: linear-gradient(15deg, rgba(141, 85, 194, 1) 0%, rgba(255, 255, 255, 1) 42%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 1) 58%, rgba(214, 116, 213, 1) 100%);
     margin: auto;
     display: flex;
 }
-.tekst1{
+
+.tekst1 {
     width: 628px;
     height: 40px;
     margin-top: 80px;
     font-size: 36px;
     margin-left: 56px;
 }
-.voprosBLOK1{
+
+.voprosBLOK1 {
     margin-top: 20px;
-width: 1250px;
-height: 56px;
-background-color:  #FFFFFF80;
-display: flex;
-padding-top: 20px;
-border-radius: 16px 16px 0px 0px;
-transition: all 0.5s linear;
-}
-.vopros{
-    width: 628px;
-    height: 40px;
-    margin-left: 32px;
-}
-.plus{
-    width: 48px;
-    height: 48px;
-    background:  #FFFFFF80;
-margin-left: 500px;
-border-radius: 25px;
-}
-.voprosBLOK2{
     width: 1250px;
-height: 56px;
-background-color:  #FFFFFF80;
-display: flex;
-padding-top: 20px;
-border-radius: 16px 16px 0px 0px;
-margin-top: 20px;
+    transition: all 0.5s linear;
+
+    height: 56px;
+    background-color: #FFFFFF80;
+    display: flex;
+    padding-top: 20px;
+    border-radius: 16px 16px 0px 0px;
 }
-.vopros2{
+
+.vopros {
     width: 628px;
     height: 40px;
     margin-left: 32px;
 }
-.krest{
+
+.plus {
     width: 48px;
     height: 48px;
-    background:  #FFFFFF80;
-margin-left: 500px;
-border-radius: 25px; 
+    background: #FFFFFF80;
+    margin-left: 500px;
+    border-radius: 25px;
 }
-.voprosBLOK3{
-   width: 1250px;
-height: 56px;
-background-color:  #FFFFFF80;
-display: flex;
-padding-top: 20px;
-border-radius: 16px 16px 0px 0px;
-margin-top: 20px;
+
+.voprosBLOK2 {
+    width: 1250px;
+    height: 56px;
+    background-color: #FFFFFF80;
+    display: flex;
+    padding-top: 20px;
+    border-radius: 16px 16px 0px 0px;
+    margin-top: 20px;
 }
-.vopros3{
-     width: 628px;
+
+.vopros2 {
+    width: 628px;
     height: 40px;
     margin-left: 32px;
 }
-.krest2{
-     width: 48px;
+
+.krest {
+    width: 48px;
     height: 48px;
-    background:  #FFFFFF80;
-margin-left: 500px;
-border-radius: 25px;
+    background: #FFFFFF80;
+    margin-left: 500px;
+    border-radius: 25px;
+}
+
+.voprosBLOK3 {
+    width: 1250px;
+    height: 56px;
+    background-color: #FFFFFF80;
+    display: flex;
+    padding-top: 20px;
+    border-radius: 16px 16px 0px 0px;
+    margin-top: 20px;
+}
+
+.vopros3 {
+    width: 628px;
+    height: 40px;
+    margin-left: 32px;
+}
+
+.krest2 {
+    width: 48px;
+    height: 48px;
+    background: #FFFFFF80;
+    margin-left: 500px;
+    border-radius: 25px;
 
 }
-.voprosBLOK4{
-        width: 1250px;
-height: 56px;
-background-color:  #FFFFFF80;
-display: flex;
-padding-top: 20px;
-border-radius: 16px 16px 0px 0px;
-margin-top: 20px;
+
+.voprosBLOK4 {
+    width: 1250px;
+    height: 56px;
+    background-color: #FFFFFF80;
+    display: flex;
+    padding-top: 20px;
+    border-radius: 16px 16px 0px 0px;
+    margin-top: 20px;
 }
-.vopros4{
- width: 628px;
+
+.vopros4 {
+    width: 628px;
     height: 40px;
     margin-left: 32px;
 }
-.krest3{
-     width: 48px;
+
+.krest3 {
+    width: 48px;
     height: 48px;
-    background:  #FFFFFF80;
-margin-left: 500px;
-border-radius: 25px;
+    background: #FFFFFF80;
+    margin-left: 500px;
+    border-radius: 25px;
 }
 
 
 /* Connect */
 
-.speak{
+.speak {
     width: 465px;
     height: 96px;
     font-size: 18px;
     color: #808080;
     padding: 40px;
-    
+
 }
-.conection{
+
+.conection {
     padding: 40px;
 }
-.conect{
+
+.conect {
     max-width: 1400px;
     display: flex;
     margin: auto;
     justify-content: space-around;
     flex-wrap: wrap;
-    
+
 }
-.asks{
+
+.asks {
     width: 465px;
     height: 56px;
 
 }
 
-.whatdou{
+.whatdou {
     width: 465px;
     height: 80px;
 }
-.aaaaa{
-width: 238px;
-height: 32px;
+
+.aaaaa {
+    width: 238px;
+    height: 32px;
 }
-.sandd{
+
+.sandd {
     display: flex;
     justify-content: center;
     gap: 16px;
@@ -813,26 +894,30 @@ height: 32px;
     padding: 40px;
 }
 
-.sendanapplication{
+.sendanapplication {
     width: 203px;
     height: 56px;
     background-color: #4754EB;
     color: white;
     border-radius: 16px;
 }
-.inputs{
+
+.inputs {
     display: flex;
     flex-direction: column;
     gap: 16px;
     padding: 40px;
 }
-.press{
-color: #808080;
+
+.press {
+    color: #808080;
 }
-.personaldata{
+
+.personaldata {
     color: #4754EB;
 }
-.chelwithglasses{
+
+.chelwithglasses {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -840,11 +925,11 @@ color: #808080;
 }
 
 /* footer vanya */
-p{
+p {
     margin: 0;
 }
 
-.footer-block{
+.footer-block {
     background-color: #4754EB;
     max-width: 1440px;
     height: 120px;
@@ -856,38 +941,41 @@ p{
     margin: auto;
 
 }
-.footer-text-left{
-    color: #FFFFFF; 
+
+.footer-text-left {
+    color: #FFFFFF;
     padding-left: 25px;
     margin-bottom: 0;
     padding-bottom: 15px;
 }
 
-.footer-text-left2{
-    color: hsl(0, 0%, 68%); 
+.footer-text-left2 {
+    color: hsl(0, 0%, 68%);
     padding-left: 25px;
     margin-bottom: 10px;
 }
 
-.footer-text-right{
+.footer-text-right {
     padding-bottom: 5px;
     color: #FFFFFF;
-    margin-right: 10px;       
+    margin-right: 10px;
 }
 
-.otvetblock{
+.otvetblock {
     background-color: #4754EB;
 }
-.hide{
+
+.hide {
     display: none;
 }
 
-.microanim{
+.microanim {
     background-color: goldenrod;
     transition: all 0.5s linear;
 }
-.hidede{
+
+.hidede {
     opacity: 0;
+    transform: translateY(-50px);
     transition: all 0.5s linear;
-    transform: translateY(-100px);
 }
